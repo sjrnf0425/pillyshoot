@@ -5,6 +5,7 @@
 @import "components/title.css";
 @import "components/user-component.css";
 @import "components/login.css";
+@import "components/camera.css";
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
