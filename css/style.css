@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 /*components*/
 @import "components/nav-bar.css";
-@import "components/title.css";
 @import "components/user-component.css";
-@import "components/login.css";
-@import "components/camera.css";
+@import "components/goods-scroll.css";
+@import "components/chat.css";
+/*screens*/
+@import "screens/camera.css";
+@import "screens/title.css";
+@import "screens/login.css";
+@import "screens/community.css";
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
