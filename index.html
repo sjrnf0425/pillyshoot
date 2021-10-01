@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>PillyShoot</title>
     <script src="https://kit.fontawesome.com/be068f1c80.js" crossorigin="anonymous" async></script>
 
 </head>
@@ -15,6 +15,16 @@
         <div class="pillyshoot__title"></div>
         <div class="camera__btn">
             <a href="camera.html"><i class="fas fa-camera fa-4x"></i></a>
+        </div>
+    </div>
+    <div class="list_goods">
+        <h4 class="list_goods__title"><b>사용자님</b>의 검색기록</h4>
+        <div class="list_goods__wrap">
+            <div class="goods_items"></div>
+            <div class="goods_items"></div>
+            <div class="goods_items"></div>
+            <div class="goods_items"></div>
+            <div class="goods_items"></div>
         </div>
     </div>
     <nav class="nav">
@@ -50,7 +60,7 @@
                 </a>
             </li>
             <li class="nav__btn">
-                <a href="#" class="nav__link">
+                <a href="community.html" class="nav__link">
                     <div class="nav__btn__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
@@ -79,6 +89,28 @@
             </li>
         </ul>
     </nav>
+
+    <script defer src="/__/firebase/9.1.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.1.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/9.1.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/9.1.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/9.1.1/firebase-storage.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDEGNk43Dcic6EOhrqIMS9xs7rcRnfJ3Aw",
+            authDomain: "pillyshoot.firebaseapp.com",
+            databaseURL: "https://pillyshoot-default-rtdb.firebaseio.com",
+            projectId: "pillyshoot",
+            storageBucket: "pillyshoot.appspot.com",
+            messagingSenderId: "708151341423",
+            appId: "1:708151341423:web:db4c62db9c331648f9389a",
+            measurementId: "G-EX6WCHHP70"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
 </body>
 
 </html>
