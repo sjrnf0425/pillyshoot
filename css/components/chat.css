@@ -1,11 +1,11 @@
 
 .new_chat_balloon_area{
     display: flex;
-    margin-left:15px;
-    margin-top:20px;
+    padding-left:15px;
+    padding-top:20px;
 }
 .chat__name{
-    margin-left: 10px;
+    padding-left: 15px;
     
 }
 .chat__balloon{
@@ -21,4 +21,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: #fff;
+}
+.txt_confirm{
+    padding-left: 15px;
 }

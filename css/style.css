@@ -7,12 +7,15 @@
 @import "components/chat.css";
 @import "components/back.css";
 @import "components/goods.css";
+@import "components/nav-top.css";
+@import "components/more.css";
 /*screens*/
 @import "screens/camera.css";
 @import "screens/title.css";
 @import "screens/login.css";
 @import "screens/community.css";
 @import "screens/mypage.css";
+@import "screens/purchase.css";
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
