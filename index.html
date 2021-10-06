@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <title>PillyShoot</title>
+    <script src="js/alert.js" async></script>
     <script src="https://kit.fontawesome.com/be068f1c80.js" crossorigin="anonymous" async></script>
 
 </head>
@@ -13,14 +14,23 @@
 <body>
     <div class="main">
         <div class="pillyshoot__title"></div>
-        <div class="camera__btn">
-            <a href="camera.html"><i class="fas fa-camera fa-4x"></i></a>
+        <div class="camera__btn" onclick="alert_camera();">
+            <i class="fas fa-camera fa-4x"></i>
         </div>
     </div>
     <div class="list_goods">
         <h4 class="list_goods__title"><b>사용자님</b>의 검색기록</h4>
         <div class="list_goods__wrap">
-            <div class="goods_items"></div>
+            <div class="goods_items">
+                <a target="_self" class="goods_card" href="#">
+                    <span class="imageCard__wrap">
+                        <img class="imageCard" alt src="https://s3.images-iherb.com/now/now03322/w/23.jpg">
+                    </span>
+                    <span class="imageCard__title">
+                        Now Foods, 슈퍼 항산화제, 베지 캡슐
+                    </span>
+                </a>
+            </div>
             <div class="goods_items"></div>
             <div class="goods_items"></div>
             <div class="goods_items"></div>

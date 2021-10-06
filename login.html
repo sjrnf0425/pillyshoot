@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/alert.js" async></script>
     <title>login</title>
 </head>
 
 <body>
+    <div class="back">
+        <a href="mypage.html">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-left" width="44"
+                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#C4C4C4" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <line x1="5" y1="12" x2="9" y2="16" />
+                <line x1="5" y1="12" x2="9" y2="8" />
+            </svg>
+        </a>
+    </div>
     <form id="login-form" action="#" method="post">
         <div class="id_pw__wrap">
             <div class="input__row">
@@ -21,14 +35,14 @@
                     maxlength="16">
             </div>
             <div class="btn__login__wrap">
-                <button type="submit" value="로그인" class="btn__login" id="log.login">
+                <button type="button" value="로그인" class="btn__login" id="log.login" onclick="alert_login()">
                     <span class="btn__text">로그인</span>
                 </button>
             </div>
         </div>
     </form>
-    <div class="member" id="member">
-        <a href="member.html" class="member_join">회원가입</a>
+    <div class="member" id="member" onclick="alert_gomember()">
+        회원가입
     </div>
 </body>
 

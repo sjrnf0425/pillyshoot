@@ -1,0 +1,17 @@
+.imageCard{
+    width:160px;
+    height: auto;
+    display:block;
+    padding-top:20px;
+    padding-left: 10px;
+}
+.goods_card{
+    display:block;
+}
+.imageCard__title{
+    display:block;
+    text-overflow: ellipsis;
+    padding-left:10px;
+    padding-top:30px;
+    overflow: hidden;
+}

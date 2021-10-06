@@ -4,58 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>community</title>
-    <script src="js/alert.js" async></script>
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be068f1c80.js" crossorigin="anonymous" async></script>
+    <title>Mypage2</title>
 </head>
 
-<body>
-    <div class="community__chat">
-        <ul class="chat__area">
-            <li class="new_chat_balloon_area">
-                <div class="profile">
+<body class="container mypage">
+    <div class="user-component__wrap">
+        <div class="user-component">
+            <div class="user-component__column">
+                <div class="user-component__avatar"></div>
+                <div class="user-component__text" onclick="alert_gologin()">
+                    <h4 class="advice__login">사용자</h4>
                 </div>
-                <div class="chat__wrap">
-                    <div class="chat__name">사용자</div>
-                    <div class="chat__balloon">
-                        <p></p>
-                    </div>
-                    <div class="txt_confirm" aria-label="메시지 작성시간">
-                        <span class="_time">
-                            <em>오전</em>
-                            <span>9:06</span>
-                        </span>
-                    </div>
-                </div>
-            </li>
-            <li class="new_chat_balloon_area">
-                <div class="profile">
-                </div>
-                <div class="chat__wrap">
-                    <div class="chat__name">사용자</div>
-                    <div class="chat__balloon">
-                        <p></p>
-                    </div>
-                    <div class="txt_confirm" aria-label="메시지 작성시간">
-                        <span class="_time">
-                            <em>오전</em>
-                            <span>9:06</span>
-                        </span>
-                    </div>
-                </div>
-            </li>
-        </ul>
+            </div>
+            <div class="user-component__setup">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="40"
+                    height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#C4C4C4" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+                    <circle cx="12" cy="12" r="3" />
+                </svg>
+            </div>
+        </div>
     </div>
-    <button class="write__btn" onclick="location.href='write.html'">
-
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
-            <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
-        </svg>
-    </button>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -89,7 +63,7 @@
                 </a>
             </li>
             <li class="nav__btn">
-                <a href="#" class="nav__link">
+                <a href="community.html" class="nav__link">
                     <div class="nav__btn__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
